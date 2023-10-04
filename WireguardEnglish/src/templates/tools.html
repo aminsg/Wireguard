@@ -1,0 +1,84 @@
+<div class="modal fade" id="ping_modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ping</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="mb-3">
+                            <small>Configuration</small>
+                            <select class="form-control mt-2 conf_dropdown">
+                                <option value="none" selected="selected" disabled>Select Config</option>
+                                {% for i in conf%}
+                                    <option value="{{ i['conf'] }}">{{ i['conf'] }}</option>
+                                {%endfor%}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="mb-3">
+                            <small>IP</small>
+                            <select class="form-control mt-2 ip_dropdown">
+                                <option value="none" selected="selected" disabled>Select an IP</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="mb-3">
+                            <small>Ping Count</small>
+                            <input type="number" class="form-control mt-2 ping_count" min=1 value=4>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ping_result">
+                    <table class="table">
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary send_ping" disabled>Ping</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="update_modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">How to update dashboard</h5>
+               ```html
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="telegram_modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Telegram Channel</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Question & Answer Channel</p>
+                <a href="https://t.me/opiranv2rayproxy" target="_blank" class="btn btn-primary">Join Telegram Channel</a>
+            </div>
+        </div>
+    </div>
+</div>

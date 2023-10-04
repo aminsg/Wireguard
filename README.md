@@ -19,7 +19,7 @@
 --------------------------------------------------------------------------------------------------------
   
 ![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/ec77e178-ae28-4e17-bb83-61be890e330f) **FEATURES**
-- This is a modified version of the original WGDashboard.
+- This is a modified version of the original [WGDashboard](https://github.com/donaldzou/WGDashboard)
 - There is a limit function for the volume of traffic based internet. [Based on Total Sent data]
 - There is date and time [ I couldn't find a workable way to make it working with date only just yet, i can seperate them but it is not necessary ].
 - There is a Wireguard tunnel script based on [udp2raw](https://github.com/wangyu-/udp2raw) [ipv4/ipv6] written specifically for this project.
@@ -251,7 +251,7 @@ $ sudo systemctl status wg-dashboard.service
 ![R (1s)](https://github.com/Azumi67/Wireguard/assets/119934376/19c9d840-d442-41d6-a577-ff7050fc7103)
  **مقدمه :**
 
-این پروژه در مورد یک پنل وایرگارد است که نسخه اصلی ان به نام WGDashboard میباشد . این پروژه که صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من کمک کردند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است و تغییراتی در html - javascript -css داده ام. در اینده اگر ایده ای هم داشته باشم و در حد توانم باشه به این پنل اضافه خواهم کرد.
+این پروژه در مورد یک پنل وایرگارد است که نسخه اصلی ان به نام [WGDashboard](https://github.com/donaldzou/WGDashboard) میباشد . این پروژه که صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من کمک کردند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است (از chatgpt هم کمک گرفته شده است) و تغییراتی در html - javascript -css داده ام. در اینده اگر ایده ای هم داشته باشم و در حد توانم باشه به این پنل اضافه خواهم کرد.
 
 
 ------------------------------------------------------------------------------------

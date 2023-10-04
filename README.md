@@ -1,9 +1,9 @@
 
-![33399-icq-flower-logo-icon-vector-icon-vector-eps](https://github.com/Azumi67/Wireguard/assets/119934376/1b3f5158-69e5-48b5-952f-3042c14d0de9)**Project Overview: Wireguard Panel**   
+![33399-icq-flower-logo-icon-vector-icon-vector-eps](https://github.com/Azumi67/Wireguard/assets/119934376/1b3f5158-69e5-48b5-952f-3042c14d0de9) **Project Overview: Wireguard Panel**   
 --------------------------------------------------------------------------------------------------------------------------------
 
 
-![R](https://github.com/Azumi67/Wireguard/assets/119934376/0ab61a19-de0b-492c-99f7-e3d1ad492cb0)**languages :**
+![R](https://github.com/Azumi67/Wireguard/assets/119934376/0ab61a19-de0b-492c-99f7-e3d1ad492cb0) **languages :**
 
 [Persian](https://github.com/Azumi67/Wireguard/blob/main/README.md#%D9%BE%D9%86%D9%84-%D9%88%D8%A7%DB%8C%D8%B1%DA%AF%D8%A7%D8%B1%D8%AF)
 
@@ -18,7 +18,7 @@
 
 --------------------------------------------------------------------------------------------------------
   
-![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/ec77e178-ae28-4e17-bb83-61be890e330f)**FEATURES**
+![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/ec77e178-ae28-4e17-bb83-61be890e330f) **FEATURES**
 - This is a modified version of the original WGDashboard.
 - There is a limit function for the volume of traffic based internet. [Based on Total Sent data]
 - There is date and time [ I couldn't find a workable way to make it working with date only just yet, i can seperate them but it is not necessary ].
@@ -27,7 +27,7 @@
 - There are better versions of this panel made by experienced programmers for sure, but you should spend money [ Please support them if you want a better and smoother experience].
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/463cb33e-2155-4846-9ff0-0e3ddc8cccc3)**1 :Installation:** 
+![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/463cb33e-2155-4846-9ff0-0e3ddc8cccc3) **1 :Installation:** 
 - Before proceeding with the Wireguard panel installation, while it's optional please make sure to install the VPS-Optimizer from the [opiran](https://github.com/opiran-club) GitHub repository : 
 ```
 apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
@@ -42,7 +42,7 @@ Servers, be sure to remove your private ips otherwise you might have a problem**
 
 ----------------------------------------------------------------------------------------------------------
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/2b1d72af-22e0-446e-a2f3-cd6b326c17c1)**Installation Steps:** [Tested on: Ubuntu 20]
+![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/2b1d72af-22e0-446e-a2f3-cd6b326c17c1) **Installation Steps:** [Tested on: Ubuntu 20]
 
 - Manually create a Wireguard config file, for example, at the default location: /etc/wireguard/wg0.conf. If you need additional ports, add them to the same directory (e.g., /etc/wireguard/wg1.conf).
 
@@ -65,7 +65,7 @@ cat /etc/wireguard/server_private.key
 
 -------------------------------------------------------------------------------------------------------------
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/036090c7-ce99-42e9-a760-4ccc51ec20c0)**Create a sample Wireguard config file:**
+![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/036090c7-ce99-42e9-a760-4ccc51ec20c0) **Create a sample Wireguard config file:**
 
 Replace the placeholders with your desired configurations and save it to /etc/wireguard/wg0.conf.
 Remember to replace "eth0" and "wg0" with the correct interface names.
@@ -100,7 +100,7 @@ SaveConfig = true
 - Wireguard port here is 50820/udp [ Be sure to change it if you need another prot]
 ---------------------------------------------------------------------------------------------------------------------
 
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/8b7db842-3e4a-484c-a730-c6da4e479b62)**DOWNLOAD SECTION :** 
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/8b7db842-3e4a-484c-a730-c6da4e479b62) **DOWNLOAD SECTION :** 
 - Download the necessary files from my GitHub repository to your operating system:
 
 Run the following commands:
@@ -140,7 +140,7 @@ Open your web browser and enter the following link, replacing yourserverip with 
 
 ---------------------------------------------------------------------------------------------------------------
 
-![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/0b63b0ea-d2b4-4b8d-9828-11bb69351946)**Dashboard Server Configuration:**
+![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/0b63b0ea-d2b4-4b8d-9828-11bb69351946) **Dashboard Server Configuration:**
 
 ![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/338c8918-d6a8-46c9-a8de-a6e23e279dba)Create a system service file for the Wireguard dashboard:
 
@@ -192,7 +192,7 @@ $ sudo systemctl status wg-dashboard.service
 
 -------------------------------------------------------
 
-![R (3)](https://github.com/Azumi67/Wireguard/assets/119934376/677d95b1-3e6e-455c-914a-36c981473c1e)**Script for Tunnel**
+![R (3)](https://github.com/Azumi67/Wireguard/assets/119934376/677d95b1-3e6e-455c-914a-36c981473c1e)  **Script for Tunnel**
 
 - To establish a tunnel for your Wireguard server, follow the steps below:
 ```
@@ -215,21 +215,21 @@ $ sudo systemctl status wg-dashboard.service
 - Thanks to OPIRAN telegram channel.
 --------------------------------------------------------------------------------------------------------------------------
 
-![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/58437ca2-a7b5-4e1c-8c74-30c178aa71d6)**Video Guide for the Tunnel Script**
+![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/58437ca2-a7b5-4e1c-8c74-30c178aa71d6)  **Video Guide for the Tunnel Script**
 
 [![Alt Text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
 
 --------------------------------------------------------------------
 
-![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/6c7f4539-30ae-4020-b498-e8be5640bf42)**Telegram Channel**
+![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/6c7f4539-30ae-4020-b498-e8be5640bf42) **Telegram Channel**
 
 ![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/7226c310-a1cd-4eb0-af60-9757b488ed38)[OPIRAN](https://github.com/opiran-club)
 
 
 
 -------------------------------------------------------------------------
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/337e645f-36cc-4357-bbbf-7d980ad39668)**Known Bugs and workarounds**
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/337e645f-36cc-4357-bbbf-7d980ad39668) **Known Bugs and workarounds**
 
 - If you had problems deleting peers, try turning Wireguard off and back on one more time and then delete it. If that didn't work, you can manually delete the private key and click the Save button. Now try to delete it.
 - If you are having problems with the dashboard panel, try using this command in the right directoy. for example for Persian version :
@@ -248,14 +248,14 @@ $ sudo systemctl status wg-dashboard.service
 **پنل وایرگارد**
 ------------------------------------------------------------
 
-![R (1s)](https://github.com/Azumi67/Wireguard/assets/119934376/66880701-806d-4d74-aefc-c27b3ec3a29b)
+![R (1s)](https://github.com/Azumi67/Wireguard/assets/119934376/19c9d840-d442-41d6-a577-ff7050fc7103)
  **مقدمه :**
 
 این پروژه در مورد یک پنل وایرگارد است که نسخه اصلی ان به نام WGDashboard میباشد . این پروژه که صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من کمک کردند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است و تغییراتی در html - javascript -css داده ام. در اینده اگر ایده ای هم داشته باشم و در حد توانم باشه به این پنل اضافه خواهم کرد.
 
 
 ------------------------------------------------------------------------------------
-![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/6fae1cfc-5e5c-4b78-96b2-89ba8566e953)
+![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/a9a2bca3-d6f6-47d2-8d2e-7e11f57d68aa)
 **امکانات**
 - داشتن حجم [بر اساس Total Data sent ]
  - داشتن تاریخ و زمان ( تلاش کردم که این دو Input از هم جدا باشند اما در حال حاضر موفق به پیاده سازی آن نشده ام.
@@ -266,7 +266,7 @@ $ sudo systemctl status wg-dashboard.service
 
 -------------------------------------------------------------
     
-![R (2)](https://github.com/Azumi67/Wireguard/assets/119934376/413c9792-4213-4c72-b45a-1c1eefc342b9)
+![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/0329067d-8e9a-4842-89bf-8f6da5a7533a)
 **روش نصب قدم به قدم**
 
 - نخست VPS optimizer گیت هاب [اپیران](https://github.com/opiran-club) را نصب کنید : 
@@ -292,11 +292,11 @@ wg genkey | sudo tee /etc/wireguard/server_private.key
 cat /etc/wireguard/server_private.key
 ```
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/03a25d27-d2ab-4c74-a638-8421778594e5)
+![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/bd7244f5-7e23-4d32-a3b0-fda0325d3a49)
 **نمونه کانفیگ وایرگارد**
 
 
-![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/5437f6d5-89c0-4419-9a25-2d03f26441b7)
+![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/59fbff4c-5a13-4385-8829-122025fab001)
   پورت و wg0 و eth0 در صورت لزوم تغییر دهید
 
 - با دستور زیر وارد مسیر کانفیگ وایرگارد بشوید. [مسیر پیش فرض است]
@@ -327,11 +327,12 @@ SaveConfig = true
 - میتوانید از ایپی های دیگری استفاده کنید.
 - پورت وایرگارد در اینجا 50820 است . میتوانید پورت دیگری انتخاب کنید.
 ----------------------------------------------------------------
-**توجه**![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/4f36da97-6670-4af7-bc10-2ceffe414692)
+**توجه**![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/b639ec45-65b0-4f0b-bf78-ebe821f31988)
+
 
 
 - برای ساختن اینترفیس های بیشتر و با پورت های مختلف با همین روش بالا انجام بدید و فقط نام و پورت و ایپی رو عوض کنید
-- دقت کنید برای سرور های دیجیتال اوشن ![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/7eb7f6f1-ebef-4b0e-928c-58c5ac2d50a3) قبل از نصب، ایپی پرایوت خود را حذف کنید [ راه دیگر هم هست اما این روش هم شدنی هست]
+- دقت کنید برای سرور های دیجیتال اوشن ![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/348379cb-55b3-4fff-980d-6e2d31072c81) قبل از نصب، ایپی پرایوت خود را حذف کنید [ راه دیگر هم هست اما این روش هم شدنی هست]
 - به صورت پیش فرض Peer Remote Endpoint بر روی یک عدد بی ربط است. حتما از داخل تنظیمات این مقدار را به ایپی 4 خارج یا سرور ایران در صورت تانل تغییر بدهید.
   - در پنل وایرگارد داخل Allowed IPs برای کاربر بر اساس ایپی انتخابی بالا ، از 10.66.66.2/32, fd42:42:42::2/128 و برای کاربر دوم از 10.66.66.3/32, fd42:42:42::3/128 استفاده میکنید.
 
@@ -340,7 +341,7 @@ SaveConfig = true
 
 
 
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/31f28960-6617-4d4c-b917-9f32e7f2fd0c)
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/e45e553c-23c7-43e2-8856-9aec78020ec2)
 **دانلود**
 
 - پس از اینکه فایل را از گیت هاب در سیستم عامل خودتون دانلود کردید با دستورات زیر پیش نیازها را نصب کنید و پنل را اجرا کنید
@@ -364,7 +365,7 @@ $ ./wgd.sh start or ./wgd.sh restart
 
 
 
-![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/3b6630c2-f93d-4ca8-b629-050739ac7794)
+![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/5455440c-200e-4f14-b979-438e44940351)
 **کانفیگ داشبورد**
   
 
@@ -398,7 +399,7 @@ $ sudo systemctl status wg-dashboard.service
 
 -----------------------------------------------------------
 
-![R (3)](https://github.com/Azumi67/Wireguard/assets/119934376/141e7698-b173-498a-a26e-109c11643b7c)
+![R (3)](https://github.com/Azumi67/Wireguard/assets/119934376/f854fe2b-ad58-4239-a9d4-a7b3c2d11513)
 **اسکریپت تانل**  
 
  - با این [اسکریپت](https://github.com/opiran-club) به راحتی تانل وایرگارد را برقرار کنید. این تانل [udp2raw ipv4/ipv6](https://github.com/wangyu-/udp2raw) است و بعدا اگر امکانش باشد، مدل های دیگه هم اضافه خواهد شد 
@@ -412,15 +413,15 @@ $ sudo systemctl status wg-dashboard.service
   --------------------------------------------------------------------
 
   
-![R (5)](https://github.com/Azumi67/Wireguard/assets/119934376/571cbd38-6d8d-4c14-8e3e-94d2b3ad093d)
+![R (5)](https://github.com/Azumi67/Wireguard/assets/119934376/a5835d36-6496-4c2b-b134-a2a07fb22aae)
 **قدردانی و لینک ها**
   
 - از ادمین اپیران به خاط همکاری در اسکریپت و پاسخ دادن به سوالاتم سپاسگزارم
   
-![circle-clipart-chain-link-9](https://github.com/Azumi67/Wireguard/assets/119934376/a5206b06-2abc-44bc-bbd0-cca8861eb3aa)
+![circle-clipart-chain-link-9](https://github.com/Azumi67/Wireguard/assets/119934376/85220da8-f2f9-483f-9f06-a63af9db4070)
 [گیت هاب اپیرن](https://github.com/opiran-club)
 
-![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/2ef26df6-7164-4f1f-bd84-715c1b47b387)
+![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/9e9f3443-c884-4905-9505-0f31643bfc49)
 [نسخه اصلی پنل](https://github.com/donaldzou/WGDashboard)
 
 - از joshua دوست خوبم به خاطر پاسخ به سوالاتم و کمک کردن در بعضی کدها سپاسگزارم
@@ -428,7 +429,7 @@ $ sudo systemctl status wg-dashboard.service
 
 --------------------------------------------------------------------
 
-![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/cff6f4a9-9252-4125-a62d-2d30009bea59)
+![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/9e4f9dd5-6e27-4ab0-9ac9-0089671f70ac)
 **یوتیوب**
 
  آموزش اسکریپت :
@@ -440,15 +441,15 @@ $ sudo systemctl status wg-dashboard.service
   -------------------------------------------------------------
 
   
-![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/60c95881-2a5d-4fa7-ac40-a897bcb3c2f5)
+![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/4af86570-c8dd-4877-bcee-c311d0ec2b0d)
 **تلگرام**
 
-![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/d0f68a86-f60e-4ff9-bab4-649a09b49c0c)
+![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/7430935f-af65-49bc-9b18-407aa06f8256)
 [کانال تلگرام اپیران](https://t.me/opiranv2rayproxy)
 
 
 ---------------------------------------------------
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/0f6a18fd-5255-4376-9b96-dcb60065ae8d)
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/87074fc6-ccb8-4d7d-b768-2f7de3479354)
 **باگ ها و رفع اشکال**
 
 - اگر نتوانستید کانفیگ ها یا Peers رو پاک کنید ، وایرگارد را روشن و خاموش کنید و دوباره تلاش کنید. اگر بازم موفق نشدید، پرایوت کی هر Peer رو پاک و ذخیره کنید و دوباره حذف کنید.

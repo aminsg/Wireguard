@@ -48,7 +48,7 @@ Servers, be sure to remove your private ips otherwise you might have a problem**
 
 - Run the command: 
 ```
-$ apt install update
+$ apt update
 $ apt install wireguard
 ```
 

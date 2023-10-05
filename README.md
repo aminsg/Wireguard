@@ -24,7 +24,8 @@
 - This is a modified version of the original [WGDashboard](https://github.com/donaldzou/WGDashboard)
 - There is a limit function for the volume of traffic based internet. [Based on Total Sent data]
 - There is date and time [ I couldn't find a workable way to make it working with date only just yet, i can seperate them but it is not necessary ].
-- There is a Wireguard tunnel script based on [udp2raw](https://github.com/wangyu-/udp2raw) [ipv4/ipv6] written specifically for this project.
+- There is a Wireguard tunnel script based on [udp2raw](https://github.com/wangyu-/udp2raw) [ipv4/ipv6] written specifically for this project. [FRP Scriptf or Wireguard soon will be added]
+- Supports Persian language.
 - There are other features that are also available in the original Wireguard panel.
 - There are better versions of this panel made by experienced programmers for sure, but you should spend money [ Please support them if you want a better and smoother experience].
 

@@ -13,7 +13,7 @@
 ![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/ffa7c447-2e0a-4db3-a48f-7d0159152818)
 
 
-- The original name of this panel is [WGDASHBOARD](https://github.com/donaldzou/WGDashboard)
+- The original name of this panel is [WGDashboard](https://github.com/donaldzou/WGDashboard)
 - This project is a Wireguard panel that incorporates various codes collected from friends and modified by me. Since i know basic stuff in python language,i had to rely on chatgpt and my friend's code which i have studied and modified some of it and i have learned a lot.
 - It is intended for educational use and i changed some codes in css,html and javascript as well. However, please note that using it is at your own risk but I would be happy if others find it useful.
 - I also helped with the Wireguard tunnel script, and with the help of Opiran, who helped me a lot, we managed to create a well-rounded UDP2Raw tunnel script for this purpose.
@@ -217,6 +217,9 @@ $ sudo systemctl status wg-dashboard.service
 
 ![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/f79f26bc-3c53-46aa-aa76-7b779646e9a8)[Original Author](https://github.com/donaldzou/WGDashboard)
 
+![R (9)](https://github.com/Azumi67/Wireguard/assets/119934376/28364b62-6766-4dcd-87bb-86b00ba3c94e)[UDP2RAW Author](https://github.com/wangyu-/udp2raw)
+
+
 - Thanks to Joshua for answering my questions and helping me in my endeavour and some codes.
 - Thanks to OPIRAN telegram channel.
 --------------------------------------------------------------------------------------------------------------------------
@@ -254,14 +257,14 @@ $ sudo systemctl status wg-dashboard.service
 **پنل وایرگارد**
 ------------------------------------------------------------
 
-![R (1s)](https://github.com/Azumi67/Wireguard/assets/119934376/19c9d840-d442-41d6-a577-ff7050fc7103)
+![dash](https://github.com/Azumi67/Wireguard/assets/119934376/6557c188-0ed5-42db-a43c-a7b8fbadb080)
  **مقدمه :**
 
 این پروژه در مورد یک پنل وایرگارد است که نسخه اصلی ان به نام [WGDashboard](https://github.com/donaldzou/WGDashboard) میباشد . این پروژه که صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من کمک کردند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است (از chatgpt هم کمک گرفته شده است) و تغییراتی در html - javascript -css داده ام. در اینده اگر ایده ای هم داشته باشم و در حد توانم باشه به این پنل اضافه خواهم کرد.
 
 
 ------------------------------------------------------------------------------------
-![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/a9a2bca3-d6f6-47d2-8d2e-7e11f57d68aa)
+![check](https://github.com/Azumi67/Wireguard/assets/119934376/c92c2f2a-e321-403c-b8dc-fa76036bedb8)
 **امکانات**
 - داشتن حجم [بر اساس Total Data sent ]
  - داشتن تاریخ و زمان ( تلاش کردم که این دو Input از هم جدا باشند اما در حال حاضر موفق به پیاده سازی آن نشده ام.
@@ -272,7 +275,7 @@ $ sudo systemctl status wg-dashboard.service
 
 -------------------------------------------------------------
     
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/0329067d-8e9a-4842-89bf-8f6da5a7533a)
+![R (2)](https://github.com/Azumi67/Wireguard/assets/119934376/df9c08a5-775a-4d47-816e-9906ea188372)
 **روش نصب قدم به قدم**
 
 - نخست VPS optimizer گیت هاب [اپیران](https://github.com/opiran-club) را نصب کنید : 
@@ -298,7 +301,7 @@ wg genkey | sudo tee /etc/wireguard/server_private.key
 cat /etc/wireguard/server_private.key
 ```
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/bd7244f5-7e23-4d32-a3b0-fda0325d3a49)
+![2940667803](https://github.com/Azumi67/Wireguard/assets/119934376/5eaf9839-1a6a-4539-b740-6ed862effc72)
 **نمونه کانفیگ وایرگارد**
 
 
@@ -347,7 +350,7 @@ SaveConfig = true
 
 
 
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/e45e553c-23c7-43e2-8856-9aec78020ec2)
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/f8d60de6-576c-4052-9b23-e425f8761a24)
 **دانلود**
 
 - پس از اینکه فایل را از گیت هاب در سیستم عامل خودتون دانلود کردید با دستورات زیر پیش نیازها را نصب کنید و پنل را اجرا کنید
@@ -371,7 +374,7 @@ $ ./wgd.sh start or ./wgd.sh restart
 
 
 
-![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/5455440c-200e-4f14-b979-438e44940351)
+![OIP2 (1)](https://github.com/Azumi67/Wireguard/assets/119934376/9d109d98-5ea9-4900-8ee4-4b05c83e9f0b)
 **کانفیگ داشبورد**
   
 
@@ -430,12 +433,17 @@ $ sudo systemctl status wg-dashboard.service
 ![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/9e9f3443-c884-4905-9505-0f31643bfc49)
 [نسخه اصلی پنل](https://github.com/donaldzou/WGDashboard)
 
+![R (9)](https://github.com/Azumi67/Wireguard/assets/119934376/813ecd9b-7c84-4c8b-91ee-bd63a7b9c1bc)
+[تانل UDP2RAW](https://github.com/wangyu-/udp2raw)
+
+
+
 - از joshua دوست خوبم به خاطر پاسخ به سوالاتم و کمک کردن در بعضی کدها سپاسگزارم
 - از گروه تلگرام opiranclub هم سپاسگزارم
 
 --------------------------------------------------------------------
 
-![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/9e4f9dd5-6e27-4ab0-9ac9-0089671f70ac)
+![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/ad37a56c-b155-410a-99ce-d18e25a9b88c)
 **یوتیوب**
 
  آموزش اسکریپت :
@@ -450,7 +458,7 @@ $ sudo systemctl status wg-dashboard.service
 ![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/4af86570-c8dd-4877-bcee-c311d0ec2b0d)
 **تلگرام**
 
-![R (7)](https://github.com/Azumi67/Wireguard/assets/119934376/7430935f-af65-49bc-9b18-407aa06f8256)
+![R (6)](https://github.com/Azumi67/Wireguard/assets/119934376/6a083856-0b63-4245-80ea-90c25a4ee51f)
 [کانال تلگرام اپیران](https://t.me/opiranv2rayproxy)
 
 

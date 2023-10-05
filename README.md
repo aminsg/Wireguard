@@ -1,24 +1,26 @@
 
-![33399-icq-flower-logo-icon-vector-icon-vector-eps](https://github.com/Azumi67/Wireguard/assets/119934376/1b3f5158-69e5-48b5-952f-3042c14d0de9) **Project Overview: Wireguard Panel**   
+![33399-icq-flower-logo-icon-vector-icon-vector-eps](https://github.com/Azumi67/Wireguard/assets/119934376/fdeafe81-7535-44f7-a592-0f3ddef72d2a)**Project Overview: Wireguard Panel**   
 --------------------------------------------------------------------------------------------------------------------------------
 
 
-![R](https://github.com/Azumi67/Wireguard/assets/119934376/0ab61a19-de0b-492c-99f7-e3d1ad492cb0) **languages :**
+![lang](https://github.com/Azumi67/Wireguard/assets/119934376/b47d76ba-4ffb-4e47-bb64-4f125f21b431) **languages :**
 
 [Persian](https://github.com/Azumi67/Wireguard/blob/main/README.md#%D9%BE%D9%86%D9%84-%D9%88%D8%A7%DB%8C%D8%B1%DA%AF%D8%A7%D8%B1%D8%AF)
 
 [English](https://github.com/Azumi67/Wireguard/tree/main#-project-overview-wireguard-panel)
 
 -----------------------------------------------------------------------------------------------
-![R (1s)](https://github.com/Azumi67/Wireguard/assets/119934376/3974c679-a8a9-4046-a8a2-7f83848167c7)
+![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/ffa7c447-2e0a-4db3-a48f-7d0159152818)
 
+
+- The original name of this panel is [WGDASHBOARD](https://github.com/donaldzou/WGDashboard)
 - This project is a Wireguard panel that incorporates various codes collected from friends and modified by me. Since i know basic stuff in python language,i had to rely on chatgpt and my friend's code which i have studied and modified some of it and i have learned a lot.
 - It is intended for educational use and i changed some codes in css,html and javascript as well. However, please note that using it is at your own risk but I would be happy if others find it useful.
 - I also helped with the Wireguard tunnel script, and with the help of Opiran, who helped me a lot, we managed to create a well-rounded UDP2Raw tunnel script for this purpose.
 
 --------------------------------------------------------------------------------------------------------
   
-![R (4)](https://github.com/Azumi67/Wireguard/assets/119934376/ec77e178-ae28-4e17-bb83-61be890e330f) **FEATURES**
+![check](https://github.com/Azumi67/Wireguard/assets/119934376/bd329bf3-455e-4fe9-a710-7e26dea218ac) **FEATURES**
 - This is a modified version of the original [WGDashboard](https://github.com/donaldzou/WGDashboard)
 - There is a limit function for the volume of traffic based internet. [Based on Total Sent data]
 - There is date and time [ I couldn't find a workable way to make it working with date only just yet, i can seperate them but it is not necessary ].
@@ -27,7 +29,7 @@
 - There are better versions of this panel made by experienced programmers for sure, but you should spend money [ Please support them if you want a better and smoother experience].
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/463cb33e-2155-4846-9ff0-0e3ddc8cccc3) **1 :Installation:** 
+![R (2)](https://github.com/Azumi67/Wireguard/assets/119934376/0e03613a-25e7-49a3-8109-06017aec6802) **1 :Installation:** 
 - Before proceeding with the Wireguard panel installation, while it's optional please make sure to install the VPS-Optimizer from the [opiran](https://github.com/opiran-club) GitHub repository : 
 ```
 apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
@@ -42,7 +44,7 @@ Servers, be sure to remove your private ips otherwise you might have a problem**
 
 ----------------------------------------------------------------------------------------------------------
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/2b1d72af-22e0-446e-a2f3-cd6b326c17c1) **Installation Steps:** [Tested on: Ubuntu 20]
+![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/4fe3484e-d17a-4a3d-b053-e872b81f9548) **Installation Steps:** [Tested on: Ubuntu 20]
 
 - Manually create a Wireguard config file, for example, at the default location: /etc/wireguard/wg0.conf. If you need additional ports, add them to the same directory (e.g., /etc/wireguard/wg1.conf).
 
@@ -65,7 +67,7 @@ cat /etc/wireguard/server_private.key
 
 -------------------------------------------------------------------------------------------------------------
 
-![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/036090c7-ce99-42e9-a760-4ccc51ec20c0) **Create a sample Wireguard config file:**
+![2940667803](https://github.com/Azumi67/Wireguard/assets/119934376/331343a2-f864-4652-b66f-86a7757d0b2e) **Create a sample Wireguard config file:**
 
 Replace the placeholders with your desired configurations and save it to /etc/wireguard/wg0.conf.
 Remember to replace "eth0" and "wg0" with the correct interface names.
@@ -94,18 +96,21 @@ PrivateKey = YOUR_GENERATED_PRIVATE_KEY
 SaveConfig = true
 ```
 
-![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/4829b09e-6978-40ad-9693-d4e3c04f2e6f)- You can make different ports, just add another wireguard interface eg : wg1 and so on.
+![R (12)](https://github.com/Azumi67/Wireguard/assets/119934376/ba86be16-8dbb-4773-87d6-9d2ca9728245) **Information**
+- You can make different ports, just add another wireguard interface eg : wg1 and so on.
 - When adding config in wireguard panel, based on the IPs above... you will use 10.66.66.2/32, fd42:42:42::2/128 in allowed IPs section.
 - You can use different IPs if you wish.
 - Wireguard port here is 50820/udp [ Be sure to change it if you need another prot]
 ---------------------------------------------------------------------------------------------------------------------
 
-![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/8b7db842-3e4a-484c-a730-c6da4e479b62) **DOWNLOAD SECTION :** 
+![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/9c6f5e45-ac16-4778-b00e-ed5d46de9116) **DOWNLOAD SECTION :** 
+ 
 - Download the necessary files from my GitHub repository to your operating system:
 
 Run the following commands:
 
-- English version
+
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/f24f2e54-8e19-43bc-9603-47c1bf4c269c) **English version**
   
  ```
 $ apt update
@@ -120,7 +125,7 @@ $ sudo chmod -R 755 /etc/wireguard
 $ ./wgd.sh start or ./wgd.sh restart
  ```
 
-- Persian version
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/409c631f-b28a-4a98-9920-0055cd3aa3be) **Persian version**
   
 ```
 $ apt update
@@ -140,7 +145,7 @@ Open your web browser and enter the following link, replacing yourserverip with 
 
 ---------------------------------------------------------------------------------------------------------------
 
-![OIP (1)](https://github.com/Azumi67/Wireguard/assets/119934376/0b63b0ea-d2b4-4b8d-9828-11bb69351946) **Dashboard Server Configuration:**
+![OIP2 (1)](https://github.com/Azumi67/Wireguard/assets/119934376/1844e612-ca7f-47ae-a755-99cf69ca8925) **Dashboard Server Configuration:** 
 
 ![3022470](https://github.com/Azumi67/Wireguard/assets/119934376/338c8918-d6a8-46c9-a8de-a6e23e279dba)Create a system service file for the Wireguard dashboard:
 
@@ -149,7 +154,8 @@ Run the command:
 $ nano /etc/systemd/system/wg-dashboard.service
 ```
 Paste the following content into the file:
-- For English version :
+
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/882b0028-eb6d-48d9-bce7-8f50e7ce76e4) For English version :
   
 ```
   [Unit]
@@ -164,7 +170,7 @@ Restart=always
 WantedBy=default.target
 ```
 
-- For Persian version :
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/e962ce03-003f-422d-b09a-edd7cea128ff) For Persian version :
   
 ```
 [Unit]
@@ -215,7 +221,7 @@ $ sudo systemctl status wg-dashboard.service
 - Thanks to OPIRAN telegram channel.
 --------------------------------------------------------------------------------------------------------------------------
 
-![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/58437ca2-a7b5-4e1c-8c74-30c178aa71d6)  **Video Guide for the Tunnel Script**
+![youtube-131994968075841675](https://github.com/Azumi67/Wireguard/assets/119934376/f1a39f61-23a2-4c1d-ab8c-1e4bdc9cf15e) **Video Guide for the Tunnel Script**
 
 [![Alt Text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 

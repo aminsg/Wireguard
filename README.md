@@ -111,7 +111,7 @@ SaveConfig = true
 Run the following commands:
 
 
-![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/f24f2e54-8e19-43bc-9603-47c1bf4c269c) **English version**
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/f24f2e54-8e19-43bc-9603-47c1bf4c269c) **English version [Manual mode]**
   
  ```
 $ apt update
@@ -126,7 +126,12 @@ $ sudo chmod -R 755 /etc/wireguard
 $ ./wgd.sh start or ./wgd.sh restart
  ```
 
-![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/409c631f-b28a-4a98-9920-0055cd3aa3be) **Persian version**
+![R (10)](https://github.com/Azumi67/Wireguard/assets/119934376/31acc81d-c9e2-493f-8271-c0c8522326de) **English version [Automatic mode]** - Thanks to opiran
+ ```
+apt install wireguard -y && wg genkey | sudo tee /etc/wireguard/server_private.key && apt install python3-pip -y && apt install gunicorn -y && git clone https://github.com/Azumi67/Wireguard.git && cd Wireguard/WireguardEnglish/src/ && chmod u+x wgd.sh && pip install -r requirements.txt && ./wgd.sh install && chmod -R 755 /etc/wireguard && ./wgd.sh restart && cat /etc/wireguard/server_private.key
+ ```
+
+![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/409c631f-b28a-4a98-9920-0055cd3aa3be) **Persian version [Manual mode]**
   
 ```
 $ apt update
@@ -140,6 +145,12 @@ $ sudo ./wgd.sh install
 $ sudo chmod -R 755 /etc/wireguard
 $ ./wgd.sh start or ./wgd.sh restart
 ```
+
+![R (10)](https://github.com/Azumi67/Wireguard/assets/119934376/d361991b-674d-4da6-8536-b6520ea547cf) **Persian version [Automatic mode]**
+ ```
+apt install wireguard -y && wg genkey | sudo tee /etc/wireguard/server_private.key && apt install python3-pip -y && apt install gunicorn -y && git clone https://github.com/Azumi67/Wireguard.git && cd Wireguard/WireguardPersian/src/ && chmod u+x wgd.sh && pip install -r requirements.txt && ./wgd.sh install && chmod -R 755 /etc/wireguard && ./wgd.sh restart && cat /etc/wireguard/server_private.key
+ ```
+
 - Accessing the Wireguard panel:
 
 - Open your web browser and enter the following link, replacing yourserverip with the actual IP of your server: [ yourserverip:8080 ]
@@ -356,6 +367,8 @@ SaveConfig = true
 **دانلود**
 
 - پس از اینکه فایل را از گیت هاب در سیستم عامل خودتون دانلود کردید با دستورات زیر پیش نیازها را نصب کنید و پنل را اجرا کنید
+- **به صورت Manual**    ![R (10)](https://github.com/Azumi67/Wireguard/assets/119934376/40070feb-606f-4307-82bd-018a2013c159) 
+
 
 ```
 $ apt update
@@ -368,6 +381,11 @@ $ pip install -r requirements.txt
 $ sudo ./wgd.sh install
 $ sudo chmod -R 755 /etc/wireguard
 $ ./wgd.sh start or ./wgd.sh restart
+```
+- **به صورت خودکار**   ![green-dot-clipart-3](https://github.com/Azumi67/Wireguard/assets/119934376/ca7c8777-45fb-4c68-8d5e-2b766eb31daf)   -  با تشکر از ایپران
+
+```
+apt install wireguard -y && wg genkey | sudo tee /etc/wireguard/server_private.key && apt install python3-pip -y && apt install gunicorn -y && git clone https://github.com/Azumi67/Wireguard.git && cd Wireguard/WireguardPersian/src/ && chmod u+x wgd.sh && pip install -r requirements.txt && ./wgd.sh install && chmod -R 755 /etc/wireguard && ./wgd.sh restart && cat /etc/wireguard/server_private.key
 ```
 
 -به پنل خودتون با ادرس [serverip:8080] وارد شوید. نام کاربری و رمز عبور پنل به صورت پیش فرض admin میباشد.

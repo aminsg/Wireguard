@@ -98,9 +98,9 @@ SaveConfig = true
 
 ![R (12)](https://github.com/Azumi67/Wireguard/assets/119934376/ba86be16-8dbb-4773-87d6-9d2ca9728245) **Information**
 - You can make different ports, just add another wireguard interface eg : wg1 and so on.
-- When adding config in wireguard panel, based on the IPs above... you will use 10.66.66.2/32, fd42:42:42::2/128 in allowed IPs section.
+- When adding config in wireguard panel, based on the IPs above... you will use 10.66.66.2/32, fd42:42:42::2/128 for your first user in allowed IPs section and so on.
 - You can use different IPs if you wish.
-- Wireguard port here is 50820/udp [ Be sure to change it if you need another prot]
+- Wireguard port here is 50820/udp [ Be sure to change it if you need another port]
 ---------------------------------------------------------------------------------------------------------------------
 
 ![OIP](https://github.com/Azumi67/Wireguard/assets/119934376/9c6f5e45-ac16-4778-b00e-ed5d46de9116) **DOWNLOAD SECTION :** 
@@ -205,7 +205,7 @@ $ sudo systemctl status wg-dashboard.service
 ```
  bash <(curl -Ls https://raw.githubusercontent.com/opiran-club/wgtunnel/main/udp2raw.sh --ipv4)
 ```
-![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/74dfa7a7-6bab-4cf3-8b7b-a8202466e8ca) There are different method to establish a tunnel and additional methods for establishing a tunnel will be added to the script when time permits. **[ only for Wireguard ]**
+![Exclamation-Mark-PNG-Clipart](https://github.com/Azumi67/Wireguard/assets/119934376/74dfa7a7-6bab-4cf3-8b7b-a8202466e8ca) There are different methods to establish a tunnel and additional methods for establishing a tunnel will be added to the script when time permits. **[ only for Wireguard ]**
   - **Thanks to opiran admin for helping and giving me a hand in creating the script.**
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
@@ -261,17 +261,17 @@ $ sudo systemctl status wg-dashboard.service
 ![dash](https://github.com/Azumi67/Wireguard/assets/119934376/6557c188-0ed5-42db-a43c-a7b8fbadb080)
  **مقدمه :**
 
-این پروژه در مورد یک پنل وایرگارد که نسخه اصلی ان به نام [WGDashboard](https://github.com/donaldzou/WGDashboard) میباشد . این پروژه صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من یاری رساندند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است (از chatgpt هم کمک گرفته شده است)، همچنین تغییراتی در html - javascript -css داده شده است. در آینده در صورت ایده های جدید در حد توانم به این پنل اضافه خواهم کرد.
+این پروژه در مورد یک پنل وایرگارد که نسخه اصلی ان به نام [WGDashboard](https://github.com/donaldzou/WGDashboard) میباشد . این پروژه صرفا برای اموزش بوده و چون اطلاعات من در پایتون بالا نیست، دوستانم در این مسیر به من یاری رساندند و بعضی از کدها توسط دوستانم تهیه شده و توسط بنده تغییر و بهینه شده است (از chatgpt هم کمک گرفته شده است)، همچنین تغییراتی در html - javascript -css داده شده است. در آینده در صورت ایده های جدید و در حد توانم به این پنل اضافه خواهم کرد.
 
 
 ------------------------------------------------------------------------------------
 ![check](https://github.com/Azumi67/Wireguard/assets/119934376/c92c2f2a-e321-403c-b8dc-fa76036bedb8)
 **امکانات**
 - حجم [بر اساس Total Data sent ]
-- تاریخ و زمان ( تلاش کردم که این دو Input از هم جدا باشند اما در حال حاضر موفق به پیاده سازی آن نشده ام.
+- تاریخ و زمان ( تلاش کردم که این دو Input از هم جدا باشند اما در حال حاضر موفق به پیاده سازی آن نشده ام)
 - تمام امکاناتی که نسخه اصلی دارد
 - پشتیبانی از زبان فارسی
-- اسکریپتی که بر پایه [udp2raw ipv4/ipv6](https://github.com/wangyu-/udp2raw) میباشد و شما میتوانید به راحتی با آن ، تانل را برقرار کنید و در آینده مدل های دیگر تانل درصورت امکان به این اسکریپت اضافه خواهم شد. با سپاس از [opiran](https://github.com/opiran-club)
+- اسکریپتی که بر پایه [udp2raw ipv4/ipv6](https://github.com/wangyu-/udp2raw) میباشد و شما میتوانید به راحتی با آن ، تانل را برقرار کنید و در آینده مدل های دیگر تانل را درصورت امکان به این اسکریپت اضافه خواهم کرد. با سپاس از [opiran](https://github.com/opiran-club)
 - در صورت تمایل به داشتن پنل بهتر، حتما از برنامه نویسانی که به صورت حرفه ای اینکار را انجام میدهند و پنل بهتری را درست میکنند، حمایت کنید.
 
 -------------------------------------------------------------
@@ -344,7 +344,7 @@ SaveConfig = true
 - برای ساختن اینترفیس های بیشتر و با پورت های مختلف با روش ذکر شده در بالا انجام بدهید و فقط نام، پورت و ایپی را عوض کنید.
 - دقت کنید برای سرور های دیجیتال اوشن ![R (1)](https://github.com/Azumi67/Wireguard/assets/119934376/348379cb-55b3-4fff-980d-6e2d31072c81) قبل از نصب، ایپی پرایوت خود را حذف کنید [ راه دیگر هم هست اما این روش نیز شدنی است]
 - به صورت پیش فرض Peer Remote Endpoint بر روی یک عدد بی ربط است. از داخل تنظیمات این مقدار را به ایپی 4 خارج یا سرور ایران در صورت تانل تغییر بدهید.
-  - در پنل وایرگارد در قسمت Allowed IPs بر اساس ایپی ها که در بالا ذکر شد ، به طور مثال برای کاربر 1 از 10.66.66.2/32, fd42:42:42::2/128 و  کاربر دوم از 10.66.66.3/32, fd42:42:42::3/128 استفاده میکنید.
+  - در پنل وایرگارد در قسمت Allowed IPs بر اساس ایپی هایی که در بالا ذکر شد ، میتوانید به طور مثال برای کاربر 1 از 10.66.66.2/32, fd42:42:42::2/128 و  کاربر دوم از 10.66.66.3/32, fd42:42:42::3/128 استفاده نمایید.
 
 -----------------------------------------------------------------
 

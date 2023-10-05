@@ -1805,21 +1805,23 @@ def check_update():
     """
     Dashboard check update
 
-    @return: Retunt text with result
+    @return: Return text with result
     @rtype: str
     """
     config = get_dashboard_conf()
     try:
         data = urllib.request.urlopen("https://api.github.com/repos/Azumi67/Wireguard/releases").read()
         output = json.loads(data)
-        release = []
-        for i in output:
-            if not i["prerelease"]:
-                release.append(i)
-        if config.get("Server", "version") == release[0]["tag_name"]:
-            result = "false"
+        release = [i for i in output if not i["prerelease"]]
+
+        if release:
+            latest_release = release[0]["tag_name"]
+            if config.get("Server", "version") == latest_release:
+                result = "false"
+            else:
+                result = "true"
         else:
-            result = "true"
+            result = "false"  # No non-prerelease releases found
 
         return result
     except urllib.error.HTTPError:
